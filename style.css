@@ -1,66 +1,67 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
   margin: 0;
   padding: 0;
 }
 
-.todo-container {
-  max-width: 400px;
+.container {
+  max-width: 500px;
   margin: 50px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
-h1 {
-  text-align: center;
-}
-
-input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-button {
-  padding: 10px 20px;
+.card-header {
   background-color: #007bff;
   color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+}
+
+.list-group-item {
+  background-color: #f8f9fa;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 10px;
-  background-color: #f9f9f9;
-  margin-bottom: 5px;
-  border-radius: 5px;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
 }
 
 .delete-btn {
   background-color: #dc3545;
   color: #fff;
   border: none;
+  border-radius: 5px;
   padding: 5px 10px;
-  border-radius: 3px;
   cursor: pointer;
 }
 
 .delete-btn:hover {
-  background-color: #bd2130;
+  background-color: #c82333;
 }
-
