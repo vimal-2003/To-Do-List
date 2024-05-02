@@ -5,6 +5,7 @@ function addTask() {
         alert("You must write something!");
     } 
     else
+        
     {
         
         let li = document.createElement("li");
